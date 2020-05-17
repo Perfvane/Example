@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perfvane.Example", "src\Perfvane.Example\Perfvane.Example.csproj", "{8782BE84-62B2-4F31-9120-2FAD9393CF8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4FC5054D-283E-449E-8FDC-64D5ECBA80AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perfvane.Example.Tests", "tests\Perfvane.Example.Tests\Perfvane.Example.Tests.csproj", "{8B84B291-5F79-486F-9A63-C531ADA8AEA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8782BE84-62B2-4F31-9120-2FAD9393CF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8782BE84-62B2-4F31-9120-2FAD9393CF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8782BE84-62B2-4F31-9120-2FAD9393CF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8782BE84-62B2-4F31-9120-2FAD9393CF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B84B291-5F79-486F-9A63-C531ADA8AEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B84B291-5F79-486F-9A63-C531ADA8AEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B84B291-5F79-486F-9A63-C531ADA8AEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B84B291-5F79-486F-9A63-C531ADA8AEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B84B291-5F79-486F-9A63-C531ADA8AEA6} = {4FC5054D-283E-449E-8FDC-64D5ECBA80AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34885C57-139A-4301-BD12-C5B39BBE078B}
+	EndGlobalSection
+EndGlobal
