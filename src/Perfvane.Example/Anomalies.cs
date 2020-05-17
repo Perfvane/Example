@@ -7,12 +7,12 @@ namespace Perfvane.Example
     {
         public static void Degradation()
         {
-            Thread.Sleep(51);
+            Thread.Sleep(49);
         }
 
         public static void Acceleration()
         {
-            Thread.Sleep(1000);
+            Thread.Sleep(1010);
         }
 
         public static void Bimodal()
@@ -20,10 +20,10 @@ namespace Perfvane.Example
             switch (new Random().Next(0, 2))
             {
                 case 0:
-                    Thread.Sleep(500);
+                    Thread.Sleep(510);
                     return;
                 case 1:
-                    Thread.Sleep(1000);
+                    Thread.Sleep(1001);
                     return;
                 default:
                     throw new NotImplementedException();
