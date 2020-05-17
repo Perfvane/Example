@@ -23,7 +23,7 @@ namespace Perfvane.Example
                     Thread.Sleep(508);
                     return;
                 case 1:
-                    Thread.Sleep(1002);
+                    Thread.Sleep(1001);
                     return;
                 default:
                     throw new NotImplementedException();
