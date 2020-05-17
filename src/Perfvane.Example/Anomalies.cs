@@ -7,7 +7,7 @@ namespace Perfvane.Example
     {
         public static void Degradation()
         {
-            Thread.Sleep(50);
+            Thread.Sleep(51);
         }
 
         public static void Acceleration()
