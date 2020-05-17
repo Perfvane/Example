@@ -12,7 +12,7 @@ namespace Perfvane.Example
 
         public static void Acceleration()
         {
-            Thread.Sleep(1004);
+            Thread.Sleep(1003);
         }
 
         public static void Bimodal()
