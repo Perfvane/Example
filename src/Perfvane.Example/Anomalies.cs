@@ -38,7 +38,7 @@ namespace Perfvane.Example
                     Thread.Sleep(510);
                     return;
                 case 1:
-                    Thread.Sleep(1020);
+                    Thread.Sleep(1000);
                     return;
                 case 2:
                     Thread.Sleep(1500);
