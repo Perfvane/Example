@@ -52,5 +52,10 @@ namespace Perfvane.Example
         {
             Multimodal();
         }
-    }
+
+        public static void Changepoint2()
+        {
+            Thread.Sleep(750);
+        }
+    }   
 }

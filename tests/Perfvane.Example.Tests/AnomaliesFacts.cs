@@ -33,5 +33,11 @@ namespace Perfvane.Example.Tests
         {
             Anomalies.Changepoint();
         }
+
+        [Fact]
+        public void Changepoint2()
+        {
+            Anomalies.Changepoint2();
+        }
     }
 }
