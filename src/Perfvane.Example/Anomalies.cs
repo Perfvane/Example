@@ -35,7 +35,7 @@ namespace Perfvane.Example
             switch (new Random().Next(0, 3))
             {
                 case 0:
-                    Thread.Sleep(512);
+                    Thread.Sleep(511);
                     return;
                 case 1:
                     Thread.Sleep(1021);
